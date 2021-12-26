@@ -5,6 +5,7 @@ import Features from "./components/Features/Features";
 import Benefits from "./components/Benefits/Benefits";
 import ScreenshotPage from "./components/ScreenshotsPage/ScreenshotPage";
 import Download from "./components/Download/Download";
+import Contact from "./components/contact/contact";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Benefits />
       <ScreenshotPage />
       <Download />
+      <Contact />
     </div>
   );
 }

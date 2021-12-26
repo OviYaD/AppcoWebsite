@@ -50,4 +50,7 @@
         margin: 0;
         padding: 20px;
     }
+    .flogo {
+        display: none;
+    }
 }

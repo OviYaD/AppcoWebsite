@@ -55,27 +55,27 @@
         width: 25px;
         border-radius: 50%;
     }
-    10% {
+    16.67% {
         height: 80px;
         width: 80px;
         border-radius: 50%;
     }
-    20% {
+    33.3367% {
         height: 25px;
         width: 25px;
         border-radius: 50%;
     }
-    40% {
+    50.0067% {
         height: 80px;
         width: 80px;
         border-radius: 50%;
     }
-    60% {
+    66.67% {
         height: 25px;
         width: 25px;
         border-radius: 50%;
     }
-    80% {
+    83.3467% {
         height: 80px;
         width: 80px;
         border-radius: 50%;
@@ -84,5 +84,32 @@
         height: 25px;
         width: 25px;
         border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .dimg {
+        margin: 0px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .dtx h1 {
+        margin: 0px;
+        padding: 5px;
+    }
+    .dtx span {
+        display: none;
+    }
+    .app1,
+    .app2 {
+        margin: 0px;
+        padding: 10px;
+        margin-left: 70px;
+        justify-content: center;
+    }
+    .dtx p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 18px;
     }
 }
